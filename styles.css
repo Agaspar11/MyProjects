@@ -1,0 +1,38 @@
+header {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+h1 {
+    float: left;
+    margin: 0;
+    border-right: solid 1px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.navhead {
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    margin-top: -28px;
+}
+
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+    float: right;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.icons i{
+    margin-left: 15px;
+    margin-top: 7px;
+}
