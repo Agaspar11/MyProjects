@@ -1,0 +1,78 @@
+/* landing page */
+* {
+    color: #d3d3d3;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(21, 21, 21, 0.48), rgba(26, 26, 26, 0.48)), url('https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h1 {
+    float: left;
+    margin: 0;
+    border-right: solid 1px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.navhead {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    margin-top: -35px;
+}
+
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+    float: right;
+    margin-right: 5%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icons i{
+    margin-left: 15px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.cen-text {
+    text-align: center;
+    margin: 200px;
+}
+
+.cen-text h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    margin: 15px;
+}
+
+.cen-text button {
+    padding: 15px 20px;
+    background: transparent;
+    transition: ease-in-out 100ms;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cen-text button:hover {
+    background-color: #d3d3d3;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cen-text a {
+    text-decoration: none;
+}
+
+.cen-text a:hover {
+    color: rgb(47, 47, 47);
+}
